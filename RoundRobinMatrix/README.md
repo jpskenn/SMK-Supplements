@@ -2,7 +2,7 @@
 
 ## 総当たりマトリクスとは
 
-IKeJI氏のブログ記事、”[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)”で *2乗マトリクス* として取り上げられているマトリクス方式のことです。<br>
+IKeJI氏のブログ記事、”[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)”で *2乗マトリクス* として取り上げられているマトリクス方式のことです。  
 全てのピンの間にキーを接続するマトリクスで、Nピン使用した場合に、N(N-1)のキーを接続できます。
 
 特徴は、少ないピン数で、多数のキーを扱えることです。
@@ -20,6 +20,7 @@ IKeJI氏のブログ記事、”[キーボードのマトリクス方式の分�
 カスタムマトリクスの設定と、総当たりマトリクス方式でのスキャン方法を記述したファイルを読み込む指定を追加します。  
 matrix_rr.cファイルをrules.mkと同じフォルダへ配置します。  
 matrix_rr.cはquantum/matrix.cを改変して作成します。[ここ](./assets/matrix_rr.c)にサンプルを用意しました。
+
     CUSTOM_MATRIX = yes
     SRC += matrix_rr.c
 
@@ -35,7 +36,8 @@ matrix_rr.cはquantum/matrix.cを改変して作成します。[ここ](./assets
 ## keyboard.h
 マトリクスレイアウトを次のように指定します。  
 ここでは、K（COL番号）（ROW番号）のように記述しています。  
-例： K12　1列目2行目のキー。
+例：  
+K12　1列目2行目のキー。
 
     #define LAYOUT( \
         K12, K21, K31, \
