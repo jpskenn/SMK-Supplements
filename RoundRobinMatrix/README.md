@@ -13,7 +13,7 @@ Nピン使用した場合、N(N-1)のキーを接続できます。
 
 ## 回路設計
 
-![回路図](./assets/RoudRobinCircuitDiagram.png)
+![回路図](./assets/RoundRobinCircuitDiagram.png)
 
 ## ファームウェア整備
 
