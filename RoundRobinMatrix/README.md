@@ -30,7 +30,8 @@ matrix_rr.cはquantum/matrix.cを改変して作成します。[ここ](./assets
     SRC += matrix_rr.c
 
 ## config.h
-使用するピンの数（ROW、COLともに同数）と、ピン番号（ROW、COLともに同じ）を指定します。
+使用するピンの数と、ピン番号を指定します。  
+総当たりマトリクスでは、ROW、COLともに同じピン数、同じピン番号になります。
 
     #define MATRIX_ROWS 3
     #define MATRIX_COLS 3
