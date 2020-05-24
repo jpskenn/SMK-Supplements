@@ -2,7 +2,7 @@
 
 ## 総当たりマトリクスとは
 
-IKeJI氏のブログ記事、”[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)”内の”2乗マトリクス”の項目で取り上げられているマトリクス方式のことです。
+IKeJI氏のブログ記事、”[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)”内の *2乗マトリクス* の項目で取り上げられているマトリクス方式のことです。
 全てのピンの間にキーを接続します。
 Nピン使用した場合、N(N-1)のキーを接続できます。
 
