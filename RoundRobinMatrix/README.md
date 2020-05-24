@@ -32,7 +32,7 @@ matrix_rr.cはquantum/matrix.cを改変して作成します。[ここ](./assets
 なお、Pro Microを2個使用した分割型でも、総当たりマトリクスを使用できます。
 その際は、quantum/split_common/matrix.cを改変して作成します。
 
-## config.h
+### config.h
 使用するピンの数と、ピン番号を指定します。  
 総当たりマトリクスでは、ROW、COLともに同じピン数、同じピン番号になります。
 
@@ -42,7 +42,7 @@ matrix_rr.cはquantum/matrix.cを改変して作成します。[ここ](./assets
     #define MATRIX_ROW_PINS { B3, B2, B6 }
     #define MATRIX_COL_PINS { B3, B2, B6 }
 
-## keyboard.h
+### keyboard.h
 マトリクスレイアウトを次のように指定します。  
 ここでは、K（COL番号）（ROW番号）のように記述しています。  
 例：  
@@ -57,3 +57,7 @@ K12　1列目2行目のキー。
         { K12,  KC_NO,K32   }, \
         { K13,  K23,  KC_NO } \
     }
+
+## 総当たりマトリクスを採用しているキーボード
+
+[Colice](https://github.com/jpskenn/Colice)
