@@ -44,8 +44,11 @@ VIHmin = 0.2Vcc + 0.9V = 1.9V
 これらの電圧降下によりATMega32u4のVIHmin 1.9Vを超えるため、PIN1はHiと判定され、ゴーストは発生しません。
 
 データシート等のリンク
+
 [ATmega32U4 - 8-bit AVR Microcontrollers](https://www.microchip.com/wwwproducts/en/ATmega32u4)
+
 [汎用小信号高速スイッチング・ダイオード　１Ｎ４１４８　１００](http://akizukidenshi.com/catalog/g/gI-00941/)
+
 [高速スイッチング・ダイオード１Ｎ４１４８Ｗ](http://akizukidenshi.com/catalog/g/gI-07084/)
 
 ## ファームウェア整備
