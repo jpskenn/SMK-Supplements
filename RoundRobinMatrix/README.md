@@ -58,7 +58,7 @@ matrix_rr.cはquantum/matrix.cを改変して作成します。[ここ](./assets
     CUSTOM_MATRIX = yes
     SRC += matrix_rr.c
 
-なお、Pro Microを2個使用した分割型でも、総当たりマトリクスを使用できます。
+なお、Pro Microを2個使用して通信させる分割型でも、総当たりマトリクスを使用できます。
 その際は、quantum/split_common/matrix.cを改変して作成します。
 
 ### config.h
