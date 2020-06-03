@@ -90,3 +90,4 @@ K12　1列目2行目のキー。
 ## 総当たりマトリクスを採用しているキーボード
 
 [Colice](https://github.com/jpskenn/Colice)
+[AtreusRR](https://github.com/jpskenn/AtreusRR)
