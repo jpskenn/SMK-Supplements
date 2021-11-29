@@ -13,7 +13,7 @@
 - [ゴースト対策についての考察](#ゴースト対策についての考察)
 - [QMKファームウェアの整備](#qmkファームウェアの整備)
   - [rules.mk](#rulesmk)
-  - [keyboard config.h](#keyboard-configh)
+  - [config.h](#configh)
   - [keyboard.h](#keyboardh)
 - [総当たりマトリクスを採用しているキーボード](#総当たりマトリクスを採用しているキーボード)
 
@@ -168,7 +168,7 @@ VIHmin = 0.2 * 5 + 0.9 = 1.9V
   変更なし。  
   カスタムマトリクスは不要です。
 
-### keyboard config.h
+### config.h
 
 総当たりマトリクスに関して、次のように指定します。
 
